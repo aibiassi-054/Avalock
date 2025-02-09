@@ -1,0 +1,73 @@
+Avalanche Labs - Workshop Notes
+
+chaindiver.com
+
+fuji - test net
+
+ketboard.xyz - ai agent trades across chains
+
+eliza OS crypto GitHub - star history - framework for creating autonomous ai Agents - create characters
+-hook up to providers/clients - can use openai - packages to integrate with (twitter) - liking and retweeting things
+Avalanche plugin
+bot in telegram - text to action for avalanche
+
+avalcheck.com - transfers of assets - launch L1 - create l1 chain that's EDM
+
+Bounty9000 - off the grid scump on-chain games
+
+build.avax.network/academy - hands on tutorials, documentations
+avalanche blockchain create myblockchain
+avalanche-cli
+install script
+
+Workflow:
+
+subnet-EVM
+Proof of Authority
+Get address from an existing stored key
+owen
+Validator Manager Contract owner address
+I don't want to use default values
+Use latest release version
+ChainID: 1211
+Token Symbol: owen
+Define a custom allocation (recommended for production)
+yes
+No, I want the supply of the native tokesn be hardcapped
+High block size / High Throughput
+Yes, I would like my blockain to have dynamic fees
+Yes, allow adjustment of the transaction fee configuration as needed. Recommended for production
+Cancel No, use the transaction fee configuration set in the gensis block
+Use the arrow keys to navigate
+D oyou want the transaction fees to be burned... All transaction fees on Avalanche are burned by detaul
+Yes, burned
+Yes
+Yes
+
+
+avalanche blockchain describe myblockchain 
+** Prints out all information ont he blockchain just made
+genesis.json file (holds information about the chain)
+
+Deploy:
+avalanche go files
+
+The above is using the command line to develop the L1 blockchain
+
+hypersdk (GitHub) - opinionated framework for creating custom EVMs. - Build your application directly into VM 
+uniswap style ALM
+
+precompile-evm GitHub
+interchain-token-transfer
+avalanchego
+avalanche-starter-kit (GitHub)
+
+Track 1: Ai Agents - Grant funding for AI builders
+
+Infrabuild AI program 100 million for AI infrared development
+
+Track 2: Novel
+
+abundant-principle-cbd.notion.site/avalanche-eth-oxford
+
+Why Avalanche? Scalability? Interoperability and cross-chain

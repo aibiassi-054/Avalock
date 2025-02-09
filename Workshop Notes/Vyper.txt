@@ -1,0 +1,55 @@
+Vyper - Workshop
+
+Pythonic
+
+Smart Contracts!
+Think of Vyper when you think of smart contracts
+
+moccasin
+cyfrin.github.io/moccasin
+
+install
+mox --version
+mox init oxford
+cd oxford/
+
+(Open up in code)
+
+.vy files
+test .py files
+deploy.py
+toml file (configure network you want to deploy to)
+
+@external
+def transfer(_from: address, _to: address, _value: uint256):
+	assert self.number >= _value
+	self.value -= _value
+
+mox --help
+mox build
+
+Vyper documentation
+https://docs.vyperlang.org/en/stable/
+
+Vyper modules (easily import external code inside project and use)
+New in Vyper 4
+
+Do some proper testing:
+mox test
+
+Next step - deploy:
+Run anvil on machine to deploy
+
+mox run deploy --help
+(networks are configured in toml file)
+
+mox run deploy --network anvil --private-key (ENTER PRIVATE KEY)
+
+Where do I get chain ID from? chainlist.org (has all networks listed to deploy to)
+
+@shafu0x on twitter and telegram
+
+Remix has vyper support
+Remix vyper extension (Vyper compiler)
+Can use remix to deploy to any network
+Remix connects to metamask so you don't need to private keys in code
