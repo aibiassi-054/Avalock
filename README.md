@@ -44,7 +44,7 @@ Details bellow
 
 **Key Components**
 The key components of the solution are:
-1. Front End:
+## 1. Front End:
 - Application front end: the user interacts with the front end UI
 - Wallet Integration: MetaMask and Core Wallet for Identity & transaction signing
 - API Calls: the application communicates with the wallets via API 
