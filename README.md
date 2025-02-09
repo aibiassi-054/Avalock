@@ -14,6 +14,7 @@ In addition to being an app for the elderly population, our app, Golden Key, can
 **Wireframe User Interface**
 
 Figma Wireframe: https://www.figma.com/proto/tOQXgFS7mOMQvGb4lBkE26/Golden-Key?node-id=0-1&t=umDGGVMpg2kePz6w-1 
+
 Our mobile app, designed with a user-friendly wireframe in Figma, features a simple transaction interface tailored for elderly users, ensuring ease of use while enhancing financial security. The streamlined design prioritizes clarity and accessibility, displaying clear transaction summaries, recipient details, and approval steps to help users fully understand where their money is going. To prevent mistakes and fraud, the app incorporates confirmation prompts, scam warnings, and multi-signature approvals, requiring trusted contacts to verify large or unusual transactions. Additionally, the interface integrates time-delayed withdrawals, allowing users to cancel suspicious transfers before they are processed, giving them an extra layer of protection against scams. By combining intuitive design with smart contract-backed security, our solution empowers elderly users to navigate Web3 safely and confidently.
 
 **Avalock** - A smart contract built on a custom Avalanche L1.
