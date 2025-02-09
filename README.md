@@ -32,8 +32,9 @@ The high level design is as follows:
 1. **Remix Solution 1** - The first version of the solution was compiled and deployed using Remix IDE.
 The first version of the smart contract solution was compiled and deployed using Remix IDE which provided a quick, user-friendly environment for testing and deploying the Avalock smart contract. Remix allowed us to also seamlessly connect to MetaMask for deployment on Avalanche L1. Additionally, Remix has a Vyper plug-in that allows for compiling of Vyper scripts. After initial testing, we continued to develop using Docker in order to have all infrastructure in one container.
 2. **Docker Infrastructure Solution 2** - Scalable and containerized deployment.
-Details bellow
-3. **Avacloud/Core Solution 3** - Integration with Avacloud for enhanced blockchain functionality.
+The setup video is here: https://github.com/aibiassi-054/Avalock/blob/main/video4860355459.mp4
+More details bellow
+4. **Avacloud/Core Solution 3** - Integration with Avacloud for enhanced blockchain functionality.
 Details bellow
 
 **Key Components**
