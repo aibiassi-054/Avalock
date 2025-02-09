@@ -35,6 +35,7 @@ The first version of the smart contract solution was compiled and deployed using
 2. **Docker Infrastructure Solution 2** - Scalable and containerized deployment.
 
 The setup video is here: https://github.com/aibiassi-054/Avalock/blob/main/video4860355459.mp4
+
 More details bellow
 
 3. **Avacloud/Core Solution 3** - Integration with Avacloud for enhanced blockchain functionality.
