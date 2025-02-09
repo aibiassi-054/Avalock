@@ -19,7 +19,9 @@ According to AgeUK, more than 800,000 older people in England and Wales reported
 
 Banking services are moving away from High Streets and into the digital space, leaving older generations technologically behind and most vulnerable to digital scams.
 
-### Solution
+---
+
+## Solution
 **Avalock** - A smart contract built on a custom Avalanche L1.
 
 **Golden Key** - A mobile application designed to improve security and accessibility for users.
