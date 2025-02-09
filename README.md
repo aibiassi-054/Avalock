@@ -12,10 +12,15 @@ Banking services are moving away from High Streets and into the digital space, l
 ---
 
 ## Solution
-**Avalock** - A smart contract built on a custom Avalanche L1.
-
 The high level design is as follows:
 ![Alt Text](https://github.com/aibiassi-054/Avalock/blob/main/Avalock%20system.png)
+**Avalock** - A smart contract built on a custom Avalanche L1.
+
+**Golden Key** - A mobile application designed to improve security and accessibility for users.
+
+Wireframe User Interface: https://bit.ly/3CwPP2t
+
+Our mobile app, designed with a user-friendly wireframe in Figma, features a simple transaction interface tailored for elderly users, ensuring ease of use while enhancing financial security. The streamlined design prioritizes clarity and accessibility, displaying clear transaction summaries, recipient details, and approval steps to help users fully understand where their money is going. To prevent mistakes and fraud, the app incorporates confirmation prompts, scam warnings, and multi-signature approvals, requiring trusted contacts to verify large or unusual transactions. Additionally, the interface integrates time-delayed withdrawals, allowing users to cancel suspicious transfers before they are processed, giving them an extra layer of protection against scams. By combining intuitive design with smart contract-backed security, our solution empowers elderly users to navigate Web3 safely and confidently.
 
 The key components of the solution are:
 1. Front End:
@@ -40,12 +45,6 @@ The wallets communicates with the Avalanche network via JSON-RPC;
 - Avalock Smart Contract:
 ![Alt Text](https://github.com/aibiassi-054/Avalock/blob/main/Blockchain%20Infra/Screenshot%202025-02-09%20at%2011.09.45.png)
 
-**Golden Key** - A mobile application designed to improve security and accessibility for users.
-
-Wireframe User Interface: https://bit.ly/3CwPP2t
-
-Our mobile app, designed with a user-friendly wireframe in Figma, features a simple transaction interface tailored for elderly users, ensuring ease of use while enhancing financial security. The streamlined design prioritizes clarity and accessibility, displaying clear transaction summaries, recipient details, and approval steps to help users fully understand where their money is going. To prevent mistakes and fraud, the app incorporates confirmation prompts, scam warnings, and multi-signature approvals, requiring trusted contacts to verify large or unusual transactions. Additionally, the interface integrates time-delayed withdrawals, allowing users to cancel suspicious transfers before they are processed, giving them an extra layer of protection against scams. By combining intuitive design with smart contract-backed security, our solution empowers elderly users to navigate Web3 safely and confidently.
-
 ---
 
 ## Process & Tech Stack
@@ -61,7 +60,6 @@ This combination of speed, affordability, and interoperability makes Avalanche t
 ### Vyper 
 
 We chose Vyper v4 for our smart contract because of its Pythonic syntax, security, and efficiency, making it an ideal choice for fraud prevention in a Web3 mobile app for elderly users. Unlike Solidity, Vyper is built specifically for smart contracts, with a simple and auditable structure that reduces vulnerabilities like reentrancy attacks and overflow errors. With Vyper modules, we can efficiently import external code, keeping the contract modular and maintainable. Additionally, Vyper’s native support in Remix allows us to deploy and test contracts securely using MetaMask, ensuring seamless integration across multiple networks. 
-
 
 1. **Remix Solution 1** - The first version of the solution was compiled and deployed using Remix IDE.
 2. **Docker Infrastructure Solution 2** - Scalable and containerized deployment.
