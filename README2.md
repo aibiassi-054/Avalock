@@ -2,16 +2,6 @@
 
 ## Avalanche Track 2
 
-### Presentation/Pitch Ideas
-
-### Video Demo:
-- [ ] Youtube demo
-- [ ] Video capture of Figma
-- [ ] Video capture of Remix/Smart contract/Cloud
-- [ ] Voiceover of process + still or video capture of Lucidspark
-
----
-
 ## Storyline
 
 ### Background
