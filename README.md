@@ -35,7 +35,9 @@ The first version of the smart contract solution was compiled and deployed using
 The setup video is here: https://github.com/aibiassi-054/Avalock/blob/main/video4860355459.mp4
 
 More details bellow
-4. **Avacloud/Core Solution 3** - Integration with Avacloud for enhanced blockchain functionality.
+
+3. **Avacloud/Core Solution 3** - Integration with Avacloud for enhanced blockchain functionality.
+
 Details bellow
 
 **Key Components**
