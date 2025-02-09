@@ -1,26 +1,31 @@
-# Avalock // Golden Key
-
-## Avalanche Track 2
-
-## Storyline
+# Golden Key app powered by Avalock
 
 ### Background
 According to AgeUK, more than 800,000 older people in England and Wales reported being victims of fraud in the past year alone. People are now nearly three times more likely to be a victim of fraud than to be burgled and nearly 19 times more likely to be a victim of fraud than to be mugged. [(1)](#references)
 
-Banking services are moving away from High Streets and into the digital space, leaving older generations technologically behind and most vulnerable to digital scams.
+Banking services are moving away from High Streets and into the digital space with older generations being technologically left behind and most vulnerable to these digital scams. These changing conditions affect the older population at a time when their finances are most shifting due to life changes including retirement, reduced income, and increased medical or care expenses. As traditional banking services become less accessible, many elderly individuals are forced to navigate unfamiliar digital financial systems, making them prime targets for online scams, phishing attacks, and fraudulent transactions. Without the right tools and protections in place, they face significant risks of financial loss, which can have devastating consequences on their well-being and security. 
 
----
+### Applications
+
+In addition to being an app for the elderly population, our app, Golden Key, can be used by other vulnerable populations including older children and young adults. For this younger demographic, the app acts as a financial safety net, allowing parents or guardians to oversee large transactions and prevent unauthorized spending or scams. The app helps young users develop responsible financial habits by introducing them to secure digital transactions, multi-signature approvals, and fraud awareness in a controlled and supportive environment.
 
 ## Solution
-The high level design is as follows:
-![Alt Text](https://github.com/aibiassi-054/Avalock/blob/main/Avalock%20system.png)
+
+**Wireframe User Interface**
+
+Figma Wireframe: https://www.figma.com/proto/tOQXgFS7mOMQvGb4lBkE26/Golden-Key?node-id=0-1&t=umDGGVMpg2kePz6w-1 
+Our mobile app, designed with a user-friendly wireframe in Figma, features a simple transaction interface tailored for elderly users, ensuring ease of use while enhancing financial security. The streamlined design prioritizes clarity and accessibility, displaying clear transaction summaries, recipient details, and approval steps to help users fully understand where their money is going. To prevent mistakes and fraud, the app incorporates confirmation prompts, scam warnings, and multi-signature approvals, requiring trusted contacts to verify large or unusual transactions. Additionally, the interface integrates time-delayed withdrawals, allowing users to cancel suspicious transfers before they are processed, giving them an extra layer of protection against scams. By combining intuitive design with smart contract-backed security, our solution empowers elderly users to navigate Web3 safely and confidently.
+
 **Avalock** - A smart contract built on a custom Avalanche L1.
+The Vyper smart contract is designed to protect elderly users from financial fraud by incorporating multi-signature approvals, scam detection, and time-delayed withdrawals, all while leveraging Avalanche L1’s fast transaction finality and low fees to ensure security without high costs. The contract allows users to flag suspicious contracts to warn others of potential scams, ensuring that elderly users do not accidentally send funds to fraudulent addresses. It also includes a guardian approval system, where trusted individuals (such as family members or advisors) must approve high-value transactions before they are executed, preventing unauthorized withdrawals. Additionally, the time-delayed withdrawal mechanism ensures that users have 24 hours to cancel transactions, giving them a safety net in case they suspect fraud or coercion. By leveraging secure smart contract logic in Vyper on Avalanche’s scalable and interoperable blockchain, this contract ensures clarity, safety, and efficiency, making Web3 transactions safer and more accessible for elderly individuals.
 
 **Golden Key** - A mobile application designed to improve security and accessibility for users.
+The Golden Key mobile app seamlessly integrates with the Avalock smart contract on Avalanche L1, allowing elderly users to conduct safe blockchain transactions without the complexity of traditional Web3 interfaces. Through a simple, user-friendly dashboard, users can send and receive funds while automatically benefiting from built-in fraud protection mechanisms like multi-signature approvals and time-delayed withdrawals. The app enables users to easily add trusted guardians—such as family members or advisors—who can approve or reject high-risk transactions, ensuring an extra layer of security. By automating real-time scam detection and providing clear transaction details, the app helps users avoid financial mistakes and fraud while maintaining full transparency and control over their assets. With one-click approvals, accessible notifications, and guided transaction flows, Avalock transforms blockchain transactions into a safe, intuitive experience, making Web3 more accessible and secure for elderly individuals
 
-Wireframe User Interface: https://bit.ly/3CwPP2t
 
-Our mobile app, designed with a user-friendly wireframe in Figma, features a simple transaction interface tailored for elderly users, ensuring ease of use while enhancing financial security. The streamlined design prioritizes clarity and accessibility, displaying clear transaction summaries, recipient details, and approval steps to help users fully understand where their money is going. To prevent mistakes and fraud, the app incorporates confirmation prompts, scam warnings, and multi-signature approvals, requiring trusted contacts to verify large or unusual transactions. Additionally, the interface integrates time-delayed withdrawals, allowing users to cancel suspicious transfers before they are processed, giving them an extra layer of protection against scams. By combining intuitive design with smart contract-backed security, our solution empowers elderly users to navigate Web3 safely and confidently.
+## Tech stack
+The high level design is as follows:
+![Alt Text](https://github.com/aibiassi-054/Avalock/blob/main/Avalock%20system.png)
 
 The key components of the solution are:
 1. Front End:
