@@ -9,6 +9,7 @@ Banking services are moving away from High Streets and into the digital space wi
 
 In addition to being an app for the elderly population, our app, Golden Key, can be used by other vulnerable populations including older children and young adults. For this younger demographic, the app acts as a financial safety net, allowing parents or guardians to oversee large transactions and prevent unauthorized spending or scams. The app helps young users develop responsible financial habits by introducing them to secure digital transactions, multi-signature approvals, and fraud awareness in a controlled and supportive environment.
 
+## Process & Tech Stack
 ## Solution
 
 **Wireframe User Interface**
@@ -28,6 +29,11 @@ The Golden Key mobile app seamlessly integrates with the Avalock smart contract 
 The high level design is as follows:
 ![Alt Text](https://github.com/aibiassi-054/Avalock/blob/main/Avalock%20system.png)
 
+1. **Remix Solution 1** - The first version of the solution was compiled and deployed using Remix IDE.
+2. **Docker Infrastructure Solution 2** - Scalable and containerized deployment.
+3. **Avacloud/Core Solution 3** - Integration with Avacloud for enhanced blockchain functionality.
+
+**Key Components**
 The key components of the solution are:
 1. Front End:
 - Application front end: the user interacts with the front end UI
@@ -36,7 +42,16 @@ The key components of the solution are:
 The wallets communicates with the Avalanche network via JSON-RPC; 
 ![Alt Text](https://github.com/aibiassi-054/Avalock/blob/main/Blockchain%20Infra/Screenshot%202025-02-09%20at%2011.20.03.png)
 
-2. Avalanche L1 Network:
+### 2. Avalanche L1 Network:
+
+- Avalanche L1 network
+**Avalanche L1** 
+Avalanche L1 is an ideal choice for a Web3 mobile app that protects elderly users from financial fraud due to its scalability, interoperability, and cross-chain security. Unlike Ethereum, which can be slow and expensive, Avalanche processes transactions in under two seconds with significantly lower gas fees. This makes it perfect for elderly users who need fast approvals for multi-signature transactions and quick response times when freezing accounts to prevent fraud. The high throughput ensures that security features like time-delayed withdrawals and scam detection work instantly and affordably, making blockchain-based protection accessible to more users.
+
+Interoperability is another clear advantage. Since Avalanche’s C-Chain is EVM-compatible, the app can easily connect with existing Ethereum wallets like MetaMask, allowing users and guardians to approve transactions across different blockchains. 
+
+This combination of speed, affordability, and interoperability makes Avalanche the best foundation for a Web3 security-focused mobile app, ensuring that elderly users can confidently navigate the blockchain space without fear of fraud.
+
 - C-Chain (EVM-based): the blockchain network with 2 L1 nodes. Runs smart contracts (like Ethereum)
 ![Alt Text](https://github.com/aibiassi-054/Avalock/blob/main/Blockchain%20Infra/Screenshot%202025-02-09%20at%2011.03.49.png)
 ![Alt Text](https://github.com/aibiassi-054/Avalock/blob/main/Blockchain%20Infra/Screenshot%202025-02-09%20at%2011.07.55.png)
@@ -51,25 +66,12 @@ The wallets communicates with the Avalanche network via JSON-RPC;
 - Avalock Smart Contract:
 ![Alt Text](https://github.com/aibiassi-054/Avalock/blob/main/Blockchain%20Infra/Screenshot%202025-02-09%20at%2011.09.45.png)
 
----
-
-## Process & Tech Stack
-
-### Avalanche L1 
-
-Avalanche L1 is an ideal choice for a Web3 mobile app that protects elderly users from financial fraud due to its scalability, interoperability, and cross-chain security. Unlike Ethereum, which can be slow and expensive, Avalanche processes transactions in under two seconds with significantly lower gas fees. This makes it perfect for elderly users who need fast approvals for multi-signature transactions and quick response times when freezing accounts to prevent fraud. The high throughput ensures that security features like time-delayed withdrawals and scam detection work instantly and affordably, making blockchain-based protection accessible to more users.
-
-Interoperability is another clear advantage. Since Avalanche’s C-Chain is EVM-compatible, the app can easily connect with existing Ethereum wallets like MetaMask, allowing users and guardians to approve transactions across different blockchains. 
-
-This combination of speed, affordability, and interoperability makes Avalanche the best foundation for a Web3 security-focused mobile app, ensuring that elderly users can confidently navigate the blockchain space without fear of fraud.
-
-### Vyper 
+**Vyper**
 
 We chose Vyper v4 for our smart contract because of its Pythonic syntax, security, and efficiency, making it an ideal choice for fraud prevention in a Web3 mobile app for elderly users. Unlike Solidity, Vyper is built specifically for smart contracts, with a simple and auditable structure that reduces vulnerabilities like reentrancy attacks and overflow errors. With Vyper modules, we can efficiently import external code, keeping the contract modular and maintainable. Additionally, Vyper’s native support in Remix allows us to deploy and test contracts securely using MetaMask, ensuring seamless integration across multiple networks. 
 
-1. **Remix Solution 1** - The first version of the solution was compiled and deployed using Remix IDE.
-2. **Docker Infrastructure Solution 2** - Scalable and containerized deployment.
-3. **Avacloud/Core Solution 3** - Integration with Avacloud for enhanced blockchain functionality.
+---
+
 
 ---
 
