@@ -14,8 +14,6 @@ Banking services are moving away from High Streets and into the digital space, l
 ## Solution
 **Avalock** - A smart contract built on a custom Avalanche L1.
 
-Environment + Infrastructure Solutions
-
 The high level design is as follows:
 ![Alt Text](https://github.com/aibiassi-054/Avalock/blob/main/Avalock%20system.png)
 
