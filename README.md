@@ -30,8 +30,11 @@ The high level design is as follows:
 ![Alt Text](https://github.com/aibiassi-054/Avalock/blob/main/Avalock%20system.png)
 
 1. **Remix Solution 1** - The first version of the solution was compiled and deployed using Remix IDE.
+The first version of the smart contract solution was compiled and deployed using Remix IDE which provided a quick, user-friendly environment for testing and deploying the Avalock smart contract. Remix allowed us to also seamlessly connect to MetaMask for deployment on Avalanche L1. Additionally, Remix has a Vyper plug-in that allows for compiling of Vyper scripts. After initial testing, we continued to develop using Docker in order to have all infrastructure in one container.
 2. **Docker Infrastructure Solution 2** - Scalable and containerized deployment.
+Details bellow
 3. **Avacloud/Core Solution 3** - Integration with Avacloud for enhanced blockchain functionality.
+Details bellow
 
 **Key Components**
 The key components of the solution are:
@@ -60,17 +63,25 @@ This combination of speed, affordability, and interoperability makes Avalanche t
 - Docker Container: hosts the L1 network and blockchain smart contract
 - Avacloud: the L1 network can be hosted by Avacloud. Avacloud abstracts the avalanche infrastructure (docker containers, foundry smart contracts and avalanche L1 EVM). This simplifies the deployment and maintenance.
 ![Alt Text](https://github.com/aibiassi-054/Avalock/blob/main/Blockchain%20Infra/Screenshot%202025-02-09%20at%2011.15.41.png)
-3. Smart Contracts:
+### 3. Smart Contracts:
 - Technology: Solidity (EVM-compatible)
 - Frameworks: Foundry
 - Avalock Smart Contract:
 ![Alt Text](https://github.com/aibiassi-054/Avalock/blob/main/Blockchain%20Infra/Screenshot%202025-02-09%20at%2011.09.45.png)
 
 **Vyper**
-
 We chose Vyper v4 for our smart contract because of its Pythonic syntax, security, and efficiency, making it an ideal choice for fraud prevention in a Web3 mobile app for elderly users. Unlike Solidity, Vyper is built specifically for smart contracts, with a simple and auditable structure that reduces vulnerabilities like reentrancy attacks and overflow errors. With Vyper modules, we can efficiently import external code, keeping the contract modular and maintainable. Additionally, Vyper’s native support in Remix allows us to deploy and test contracts securely using MetaMask, ensuring seamless integration across multiple networks. 
 
----
+
+### Future Development
+
+**Avalanche Warp Messaging (AWM)**
+
+Future development of the smart contracts and mobile app could include the creation of a fraud prevention network on Avalanche that automatically flags scam addresses and shares alerts across multiple blockchains. In the Golden Key app, we could introduce cross-chain scam detection, allowing users to receive instant warnings if they try to interact with a suspicious contract or wallet. This feature will help prevent fraud before it happens, making blockchain transactions safer and more secure for all users.
+
+**AI Fraud Detection**
+AI fraud detection is possible thanks to Avalanche’s fast processing. This will allow for the ability to quickly analyze transaction history and scam patterns in real time. Each transaction will be assigned a risk score by the smart contract and help users identify potential threats before they send money. In the Golden Key app, suspicious transactions could be paused and require additional guardian approvals adding an extra layer of security and protection for older demographics.
+
 
 
 ---
