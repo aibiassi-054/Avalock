@@ -30,6 +30,17 @@ The wallets communicates with the Avalanche network via JSON-RPC;
 2. Avalanche L1 Network:
 - C-Chain (EVM-based): the blockchain network with 2 L1 nodes. Runs smart contracts (like Ethereum)
 ![Alt Text](https://github.com/aibiassi-054/Avalock/blob/main/Blockchain%20Infra/Screenshot%202025-02-09%20at%2011.03.49.png)
+![Alt Text](https://github.com/aibiassi-054/Avalock/blob/main/Blockchain%20Infra/Screenshot%202025-02-09%20at%2011.07.55.png)
+- RPC endpoint: provide external access to interact with the blockchain
+![Alt Text](https://github.com/aibiassi-054/Avalock/blob/main/Blockchain%20Infra/Screenshot%202025-02-09%20at%2011.13.19.png)
+- Docker Container: hosts the L1 network and blockchain smart contract
+- Avacloud: the L1 network can be hosted by Avacloud. Avacloud abstracts the avalanche infrastructure (docker containers, foundry smart contracts and avalanche L1 EVM). This simplifies the deployment and maintenance.
+![Alt Text](https://github.com/aibiassi-054/Avalock/blob/main/Blockchain%20Infra/Screenshot%202025-02-09%20at%2011.15.41.png)
+3. Smart Contracts:
+- Technology: Solidity (EVM-compatible)
+- Frameworks: Foundry
+- Avalock Smart Contract:
+![Alt Text](https://github.com/aibiassi-054/Avalock/blob/main/Blockchain%20Infra/Screenshot%202025-02-09%20at%2011.09.45.png)
 
 **Golden Key** - A mobile application designed to improve security and accessibility for users.
 
@@ -64,38 +75,4 @@ We chose Vyper v4 for our smart contract because of its Pythonic syntax, securit
 
 (1) **"Older Person Becomes Fraud Victim Every 40 Seconds | Press Release"** - Age UK.
 [Read More](https://www.ageuk.org.uk/latest-press/articles/2019/july/older-person-becomes-fraud-victim-every-40-seconds/). Accessed 9 Feb. 2025.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-![Alt Text] (https://github.com/aibiassi-054/Avalock/blob/main/Blockchain%20Infra/Screenshot%202025-02-09%20at%2011.07.55.png)
-
-RPC endpoint: provide external access to interact with the blockchain
-Proof-of-Authority (PoA) blockchain
-![Alt Text](https://github.com/aibiassi-054/Avalock/blob/main/Blockchain%20Infra/Screenshot%202025-02-09%20at%2011.13.19.png)
-
-
-Docker Container: hosts the L1 network and blockchain smart contract
-Avacloud: the L1 network can be hosted by Avacloud. Avacloud abstracts the avalanche infrastructure (docker containers, foundry smart contracts and avalanche L1 EVM). This simplifies the deployment and maintenance.
-
-![Alt Text](https://github.com/aibiassi-054/Avalock/blob/main/Blockchain%20Infra/Screenshot%202025-02-09%20at%2011.15.41.png)
-Smart Contracts:
-Technology: Solidity (EVM-compatible)
-Frameworks: Foundry
-Avalock Smart Contract:
-
-![Alt Text](https://github.com/aibiassi-054/Avalock/blob/main/Blockchain%20Infra/Screenshot%202025-02-09%20at%2011.09.45.png)
 
